@@ -130,6 +130,10 @@ header h1, footer p {
         justify-content: center;
         align-items: center;
     }
+
+    .rumah, .random {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 480px) {
@@ -139,8 +143,6 @@ header h1, footer p {
 
     .rumah, .random {
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        gap: 10px;
     }
 
     .desen {
