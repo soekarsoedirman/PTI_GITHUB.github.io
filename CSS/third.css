@@ -78,7 +78,7 @@ header h1, footer p {
 
 .rumah, .random {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, 1fr);
     gap: 20px;
     margin-bottom: 20px;
 }
