@@ -70,6 +70,11 @@ button:hover {
         width: 90%;
     }
 
+    .foto1 {
+        width: 90px;
+        height: 90px;
+    }
+
     .content {
         align-items: center;
     }
