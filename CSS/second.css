@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     color: #333;
 }
-
+  
 header, footer {
     background-color: #007BFF;
     color: white;
@@ -114,4 +114,24 @@ header h1, footer p {
 
 footer p {
     margin: 0;
+}
+
+
+@media (max-width: 768px){
+
+    .data{
+        display: none;
+    }
+
+    .profile{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px){
+
+    .data{
+        display: none;
+    }
 }

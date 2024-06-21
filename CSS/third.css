@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
+ 
 header, footer {
     background-color: #007BFF;
     color: white;
@@ -119,4 +119,28 @@ header h1, footer p {
     margin: 5px 0;
     font-size: 16px;
     color: #555;
+}
+
+
+@media (max-width: 768px){
+
+    .data{
+        display: none;
+    }
+
+    .profile{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px){
+
+    .data{
+        display: none;
+    }
+
+    .rumah, .random {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
