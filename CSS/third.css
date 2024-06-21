@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
- 
+
 header, footer {
     background-color: #007BFF;
     color: white;
@@ -71,7 +71,7 @@ header h1, footer p {
 .data p:nth-child(3)::before { content: "Alamat"; }
 .data p:nth-child(4)::before { content: "Pekerjaan"; }
 
-.rumah{
+.rumah {
     border-bottom: 2px solid #007BFF;
     padding-bottom: 50px;
 }
@@ -121,9 +121,7 @@ header h1, footer p {
     color: #555;
 }
 
-
 @media (max-width: 768px) {
-
     .data {
         display: none;
     }
@@ -139,12 +137,11 @@ header h1, footer p {
 }
 
 @media (max-width: 480px) {
-    
     .data {
         display: none;
     }
 
     .rumah, .random {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 }
