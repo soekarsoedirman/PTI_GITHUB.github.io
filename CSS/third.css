@@ -144,4 +144,8 @@ header h1, footer p {
     .rumah, .random {
         grid-template-columns: 1fr;
     }
+
+    .desen {
+        margin-bottom: 10px;
+    }
 }
