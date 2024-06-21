@@ -122,21 +122,25 @@ header h1, footer p {
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 
-    .data{
+    .data {
         display: none;
     }
 
-    .profile{
+    .profile {
         justify-content: center;
         align-items: center;
     }
+
+    .rumah, .random {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-@media (max-width: 480px){
-
-    .data{
+@media (max-width: 480px) {
+    
+    .data {
         display: none;
     }
 
