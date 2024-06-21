@@ -80,6 +80,11 @@ button:hover {
         height: 100px;
         margin-bottom: 10px;
     }
+
+    .foto1 {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -93,5 +98,10 @@ button:hover {
         font-size: 0.9em;
         width: 100px;
         max-width: 250px;
+    }
+
+    .foto1 {
+        width: 150px;
+        height: 150px;
     }
 }
