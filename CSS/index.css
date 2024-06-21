@@ -70,10 +70,6 @@ button:hover {
         width: 90%;
     }
 
-    .foto1 {
-        width: 90px;
-        height: 90px;
-    }
 
     .content {
         align-items: center;
@@ -87,10 +83,6 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-    .foto1 {
-        width: 90px;
-        height: 90px;
-    }
 
     h1 {
         font-size: 1.5em;
